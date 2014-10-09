@@ -1,0 +1,22 @@
+/**
+ * @package Site Template
+ * @subpackage Halsey HTML
+ * @since Halsey 1.0
+ * 
+ * IE 8 CSS3 Rules
+ * Created by CMSMasters
+ * 
+ */
+
+ span.dropcap2, 
+.button_small,
+.button_medium,
+.button_large,
+.cmsms_plus, 
+.cmsmsLike, 
+.cmsms_close_video, 
+.comment-reply-link,
+#slide_top,
+a.cmsms_comments span {behavior:url(pie.htc);}
+
+.p_options_block .button_small {behavior:none;}

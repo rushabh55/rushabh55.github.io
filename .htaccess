@@ -1,0 +1,230 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{QUERY_STRING} (\<|%3C).*script.*(\>|%3E) [NC,OR]
+RewriteCond %{QUERY_STRING} GLOBALS(=|\[|\%[0-9A-Z]{0,2}) [OR]
+RewriteCond %{QUERY_STRING} _REQUEST(=|\[|\%[0-9A-Z]{0,2})
+RewriteRule ^(.*)$ index.php [F,L]
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access plus 1 year"
+ExpiresByType image/jpeg "access plus 1 year"
+ExpiresByType image/gif "access plus 1 year"
+ExpiresByType image/png "access plus 1 year"
+ExpiresByType text/css "access plus 1 month"
+ExpiresByType application/pdf "access plus 1 month"
+ExpiresByType text/x-javascript "access plus 1 month"
+ExpiresByType application/x-shockwave-flash "access plus 1 month"
+ExpiresByType image/x-icon "access plus 1 year"
+ExpiresDefault "access plus 2 days"
+</IfModule>
+    <ifModule mod_headers.c>
+<filesMatch "(?i)^.*\.(ico|flv|jpg|jpeg|png|gif|js|css)$">
+ExpiresActive On
+ExpiresDefault A2592000
+</filesMatch>
+<filesMatch "\.(css)$">
+Header set Cache-Control "max-age=6048000, public"
+</filesMatch>
+<filesMatch "\.(js)$">
+Header set Cache-Control "max-age=2160000, private"
+</filesMatch>
+<filesMatch "\.(xml|txt)$">
+Header set Cache-Control "max-age=2160000, public, must-revalidate"
+</filesMatch>
+<filesMatch "\.(html|htm|php)$">
+Header set Cache-Control "max-age=1, private, must-revalidate"
+</filesMatch>
+<filesMatch "\.(js|css)$">
+    Header set Expires "Thu, 21 May 2014 20:00:00 GMT"
+    Header set Last-Modified "Thu, 26 May 2013 20:00:00 GMT"
+</filesMatch>
+</ifModule>
+<ifModule mod_headers.c>
+Header unset ETag
+</ifModule>
+FileETag None
+<ifModule mod_headers.c>
+Header unset Last-Modified
+</ifModule>
+
+
+
+
+# Author: Final Kaoss (aka: Extreme-Gaming)
+# Version 2.6
+RewriteEngine on
+ 
+#Deny attempts to view the Htaccess file.
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>
+# BEGIN Browser Caching/Headers
+<IfModule mod_mime.c>
+    AddType text/css .css
+    AddType text/richtext .rtf .rtx
+    AddType image/svg+xml .svg .svgz
+    AddType text/plain .txt
+    AddType text/xsd .xsd
+    AddType text/xsl .xsl
+    AddType video/asf .asf .asx .wax .wmv .wmx
+    AddType video/avi .avi
+    AddType image/bmp .bmp
+    AddType application/java .class
+    AddType video/divx .divx
+    AddType application/msword .doc .docx
+    AddType application/x-msdownload .exe
+    AddType image/gif .gif
+    AddType application/x-gzip .gz .gzip
+    AddType image/x-icon .ico
+    AddType image/jpeg .jpg .jpeg .jpe
+    AddType application/vnd.ms-access .mdb
+    AddType audio/midi .mid .midi
+    AddType video/quicktime .mov .qt
+    AddType audio/mpeg .mp3 .m4a
+    AddType video/mp4 .mp4 .m4v
+    AddType video/mpeg .mpeg .mpg .mpe
+    AddType application/vnd.ms-project .mpp
+    AddType application/vnd.oasis.opendocument.database .odb
+    AddType application/vnd.oasis.opendocument.chart .odc
+    AddType application/vnd.oasis.opendocument.formula .odf
+    AddType application/vnd.oasis.opendocument.graphics .odg
+    AddType application/vnd.oasis.opendocument.presentation .odp
+    AddType application/vnd.oasis.opendocument.spreadsheet .ods
+    AddType application/vnd.oasis.opendocument.text .odt
+    AddType audio/ogg .ogg
+    AddType application/pdf .pdf
+    AddType image/png .png
+    AddType application/vnd.ms-powerpoint .pot .pps .ppt .pptx
+    AddType audio/x-realaudio .ra .ram
+    AddType application/x-shockwave-flash .swf
+    AddType application/x-tar .tar
+    AddType image/tiff .tif .tiff
+    AddType audio/wav .wav
+    AddType audio/wma .wma
+    AddType application/vnd.ms-write .wri
+    AddType application/vnd.ms-excel .xla .xls .xlsx .xlt .xlw
+    AddType application/zip .zip
+</IfModule>
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/css A2628000
+    ExpiresByType text/richtext A3600
+    ExpiresByType image/svg+xml A3600
+    ExpiresByType text/plain A3600
+    ExpiresByType text/xsd A3600
+    ExpiresByType text/xsl A3600
+    ExpiresByType video/asf A2628000
+    ExpiresByType video/avi A2628000
+    ExpiresByType image/bmp A2628000
+    ExpiresByType application/java A2628000
+    ExpiresByType video/divx A2628000
+    ExpiresByType application/msword A2628000
+    ExpiresByType application/x-msdownload A2628000
+    ExpiresByType image/gif A2628000
+    ExpiresByType application/x-gzip A2628000
+    ExpiresByType image/x-icon A2628000
+    ExpiresByType image/jpeg A2628000
+    ExpiresByType application/vnd.ms-access A2628000
+    ExpiresByType audio/midi A2628000
+    ExpiresByType video/quicktime A2628000
+    ExpiresByType audio/mpeg A2628000
+    ExpiresByType video/mp4 A2628000
+    ExpiresByType video/mpeg A2628000
+    ExpiresByType application/vnd.ms-project A2628000
+    ExpiresByType application/vnd.oasis.opendocument.database A2628000
+    ExpiresByType application/vnd.oasis.opendocument.chart A2628000
+    ExpiresByType application/vnd.oasis.opendocument.formula A2628000
+    ExpiresByType application/vnd.oasis.opendocument.graphics A2628000
+    ExpiresByType application/vnd.oasis.opendocument.presentation A2628000
+    ExpiresByType application/vnd.oasis.opendocument.spreadsheet A2628000
+    ExpiresByType application/vnd.oasis.opendocument.text A2628000
+    ExpiresByType audio/ogg A2628000
+    ExpiresByType application/pdf A2628000
+    ExpiresByType image/png A2628000
+    ExpiresByType application/vnd.ms-powerpoint A2628000
+    ExpiresByType audio/x-realaudio A2628000
+    ExpiresByType application/x-shockwave-flash A2628000
+    ExpiresByType application/x-tar A2628000
+    ExpiresByType image/tiff A2628000
+    ExpiresByType audio/wav A2628000
+    ExpiresByType audio/wma A2628000
+    ExpiresByType application/vnd.ms-write A2628000
+    ExpiresByType application/vnd.ms-excel A2628000
+    ExpiresByType application/zip A2628000
+</IfModule>
+<IfModule mod_deflate.c>
+    <IfModule mod_setenvif.c>
+        BrowserMatch ^Mozilla/4 gzip-only-text/html
+        BrowserMatch ^Mozilla/4\.0[678] no-gzip
+        BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+        BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
+    </IfModule>
+    <IfModule mod_headers.c>
+        Header append Vary User-Agent env=!dont-vary
+    </IfModule>
+    <IfModule mod_filter.c>
+        AddOutputFilterByType DEFLATE text/css application/x-javascript text/html text/richtext image/svg+xml text/plain text/xsd text/xsl text/xml image/x-icon
+    </IfModule>
+</IfModule>
+<FilesMatch "\.(css|CSS|)$">
+    <IfModule mod_headers.c>
+        Header set Pragma "public"
+        Header append Cache-Control "public, must-revalidate, proxy-revalidate"
+    </IfModule>
+    FileETag MTime Size
+    <IfModule mod_headers.c>
+         Header set X-Powered-By "Step by Step guide to speed up your VB4 (forum only)"
+    </IfModule>
+</FilesMatch>
+<FilesMatch "\.(rtf|rtx|svg|svgz|txt|xsd|xsl|RTF|RTX|SVG|SVGZ|TXT|XSD|XSL|)$">
+    <IfModule mod_headers.c>
+        Header set Pragma "public"
+        Header append Cache-Control "public, must-revalidate, proxy-revalidate"
+    </IfModule>
+    FileETag MTime Size
+    <IfModule mod_headers.c>
+         Header set X-Powered-By "Step by Step guide to speed up your VB4 (forum only)"
+    </IfModule>
+</FilesMatch>
+<FilesMatch "\.(asf|asx|wax|wmv|wmx|avi|bmp|class|divx|doc|docx|exe|gif|gz|gzip|ico|jpg|jpeg|jpe|mdb|mid|midi|mov|qt|mp3|m4a|mp4|m4v|mpeg|mpg|mpe|mpp|odb|odc|odf|odg|odp|ods|odt|ogg|pdf|png|pot|pps|ppt|pptx|ra|ram|swf|tar|tif|tiff|wav|wma|wri|xla|xls|xlsx|xlt|xlw|zip|ASF|ASX|WAX|WMV|WMX|AVI|BMP|CLASS|DIVX|DOC|DOCX|EXE|GIF|GZ|GZIP|ICO|JPG|JPEG|JPE|MDB|MID|MIDI|MOV|QT|MP3|M4A|MP4|M4V|MPEG|MPG|MPE|MPP|ODB|ODC|ODF|ODG|ODP|ODS|ODT|OGG|PDF|PNG|POT|PPS|PPT|PPTX|RA|RAM|SWF|TAR|TIF|TIFF|WAV|WMA|WRI|XLA|XLS|XLSX|XLT|XLW|ZIP)$">
+    <IfModule mod_headers.c>
+        Header set Pragma "public"
+        Header append Cache-Control "public, must-revalidate, proxy-revalidate"
+    </IfModule>
+    FileETag MTime Size
+    <IfModule mod_headers.c>
+         Header set X-Powered-By "Step by Step guide to speed up your VB4 (forum only)"
+    </IfModule>
+</FilesMatch>
+<IfModule mod_headers.c>
+<FilesMatch "\\.(ico|jpe?g|png|gif|swf)$">
+Header set Cache-Control "max-age=2692000, public"
+</FilesMatch>
+<FilesMatch "\\.(css)$">
+Header set Cache-Control "max-age=2692000, public"
+</FilesMatch>
+<FilesMatch "\\.(js)$">
+Header set Cache-Control "max-age=216000, private"
+</FilesMatch>
+<FilesMatch "\\.(x?html?|php)$">
+Header set Cache-Control "max-age=600, private, must-revalidate"
+</FilesMatch>
+Header unset ETag
+Header unset Last-Modified
+</IfModule>
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 seconds"
+  ExpiresByType image/x-icon "access plus 2592000 seconds"
+  ExpiresByType image/jpeg "access plus 2592000 seconds"
+  ExpiresByType image/png "access plus 2592000 seconds"
+  ExpiresByType image/gif "access plus 2592000 seconds"
+  ExpiresByType application/x-shockwave-flash "access plus 2592000 seconds"
+  ExpiresByType text/css "access plus 604800 seconds"
+  ExpiresByType text/javascript "access plus 216000 seconds"
+  ExpiresByType application/x-javascript "access plus 216000 seconds"
+  ExpiresByType text/html "access plus 600 seconds"
+  ExpiresByType application/xhtml+xml "access plus 600 seconds"
+</IfModule>
+# End Browser Caching/Headers

@@ -1,0 +1,238 @@
+
+body {font:12px/18px Verdana, Geneva, 'DejaVu Sans', sans-serif;}
+
+li p {
+	font-size:12px;
+	line-height:18px;
+}
+
+input, textarea {font:12px/18px Verdana, Geneva, 'DejaVu Sans', sans-serif;}
+
+code {font:12px/18px Verdana, Geneva, 'DejaVu Sans', sans-serif;}
+
+h1 {font:300 40px/58px "Open Sans", Helvetica, "Nimbus Sans L", sans-serif;}
+
+h2 {font:30px/36px "Open Sans", Helvetica, "Nimbus Sans L", sans-serif;}
+
+h3,
+.colored_button {font:300 30px/36px "Open Sans", Helvetica, "Nimbus Sans L", sans-serif;}
+
+h4,
+.sitemap > li > a,
+#sidebar .widgettitle,
+#top_sidebar .widgettitle,
+#middle_sidebar .widgettitle {font:22px/36px "Open Sans", Helvetica, "Nimbus Sans L", sans-serif;}
+
+h5,
+.sitemap > li > ul > li > a {font:15px/18px "Open Sans", Helvetica, "Nimbus Sans L", sans-serif;}
+
+h6,
+#bottom .widgettitle,
+.table thead th {font:14px/18px Verdana, Geneva, 'DejaVu Sans', sans-serif;}
+
+small, 
+abbr {font:11px/18px Verdana, Geneva, 'DejaVu Sans', sans-serif;}
+
+blockquote, 
+q {font:14px/24px Verdana, Geneva, 'DejaVu Sans', sans-serif;}
+
+q:after, blockquote:after {font-family:Verdana, Geneva, 'DejaVu Sans', sans-serif;}
+
+.dropcap,
+.dropcap2 {font-family: "Open Sans", Helvetica, "Nimbus Sans L", sans-serif;}
+
+.more_button {font-family:"Open Sans", Helvetica, "Nimbus Sans L", sans-serif;}
+
+#navigation > li > a {font:15px/20px "Open Sans", Helvetica, "Nimbus Sans L", sans-serif;}
+
+#navigation ul li a {font:13px/20px "Open Sans", Helvetica, "Nimbus Sans L", sans-serif;}
+
+.post .entry-header,
+.cmsms_comments,
+.post .published,
+.cmsms_price,
+.pricing_button {font-family:"Open Sans", Helvetica, "Nimbus Sans L", sans-serif;}
+
+#footer {font-size:11px;}
+
+/* Colors */
+
+/* ---------------------------------------------- Content Color */
+
+body,  
+a:hover,
+.tog.current,
+.accordion .tog,
+.tabs li a,
+div.jp-playlist li a.jp-playlist-current,
+.tour > li a,
+a.cmsms_comments span,
+.cmsmsLike,
+ul.p_filter li a {color:#484d4f;}
+
+input, 
+textarea {color:#484d4f;}
+
+.cmsmsLike {background-color:#cccccc;}
+
+.post .entry-header {background-color:#3d4244;}
+
+/* ---------------------------------------------- Navigation Color */
+
+#navigation > li > a {color:#3d4244;}
+
+#navigation > li.current_page_item > a,
+#navigation > li:hover > a,
+#navigation > li > a:hover {
+	background-color:#F0F05B;
+	color:#000000;
+}
+
+#navigation ul li > a {color:#3d4244;}
+
+#navigation ul li.current_page_item > a,
+#navigation ul li:hover > a {color:#F0F05B;}
+
+/* ---------------------------------------------- Buttons Colors */
+
+.cmsmsLike:hover,
+.cmsms_more:hover,
+.resp_navigation.active,
+.post .published,
+.cmsms_content_slider_parent ul.cmsms_slides_nav li.active a, 
+.cmsms_content_slider_parent ul.cmsms_slides_nav li:hover a {background-color:#00a4ef;}
+
+.table th, 
+span.dropcap2 {background-color:#00a4ef;}
+
+code {border-top-color:#00a4ef;}
+
+input[type="text"]:focus, 
+input[type="password"]:focus, 
+textarea:focus,
+#slide_top:hover {border-color:#00c3f4;}
+
+/* ---------------------------------------------- Headings Colors */
+
+h1 {color:#3c4143;}
+
+h2,
+.post .entry-title a {color:#3c4143;}
+
+h3 {color:#3c4143;}
+
+h4,
+.portfolio .entry-title a {color:#3c4143;}
+
+h5 {color:#3c4143;}
+
+h6,
+.related_posts_content h6 a {color:#3c4143;}
+
+.color_2, 
+q:before, 
+blockquote:before, 
+q, 
+blockquote{color:#3c4143;}
+
+.dropcap {color:#484d4f;}
+
+/* ---------------------------------------------- Links Colors */
+
+a, 
+.color_3,
+#footer a:hover,
+.post .entry-title a:hover,
+.cmsmsLike:hover,
+.related_posts_content h6 a:hover,
+ul.p_filter li a:hover,
+ul.p_filter li.current a,
+.portfolio .entry-title a:hover {color:#00c3f4;}
+
+/* ---------------------------------------------- Slider colors */
+
+a.cmsms_close_video:hover,
+.skill_item_colored,
+#slide_top {background-color:#00c3f4;}
+
+.responsiveSlider, 
+.responsiveSlider h1 {color:#000000;}
+
+.responsiveSlider h1 {line-height:44px;}
+
+/* ---------------------------------------------- Revolution Slider */
+
+.fullwidthbanner h1 {
+	font-weight:normal;
+}
+
+.fullwidthbanner h2 {
+	font-size:48px;
+	font-weight:normal;
+}
+
+.fullwidthbanner h3 {
+	font-size:90px;
+	line-height:90px;
+}
+
+.fullwidthbanner h4 {
+	font-size:75px;
+	line-height:75px;
+}
+
+/* ---------------------------------------------- Footer Colors */
+
+#footer,
+#footer a {color:#484d4f;}
+
+/* ---------- Tablet Portrait (Note: Design for a width more than 767px but less than 1024px) ---------- */
+
+@media only screen and (max-width: 1023px) {
+	
+	.responsiveSlider h1 {
+		font-size:24px;
+		line-height:30px;
+	}
+	
+}
+
+/* ---------- Small Tablet & Mobile (Note: Design for a width less than 768px) ---------- */
+
+@media only screen and (max-width: 767px) {
+	
+	#navigation ul li a,
+	#navigation > li > a {font-size:15px;}
+	
+	#navigation > li.current_page_item > a,
+	#navigation li.current_page_item > a,
+	#navigation > li:hover > a,
+	#navigation > li > a:hover {
+		background-color:#fdfdfd;
+		color:#00C3F4;
+	}
+	
+	#navigation li a {color:#3c4143;}
+	
+	.responsiveSlider h1 {
+		font-size:20px;
+		line-height:24px;
+        background: #000000;
+	}
+	
+}
+
+/* ---------- Mobile (Note: Design for a width less than 541px) ---------- */
+
+@media only screen and (max-width: 540px) {
+
+	a.cmsms_comments {color:#00c3f4;}
+	
+	a.cmsms_comments span {color:#ffffff;}
+	
+	.responsiveSlider h1 {
+		font-size:12px;
+         background: #000000;
+		line-height:18px;
+	}
+}

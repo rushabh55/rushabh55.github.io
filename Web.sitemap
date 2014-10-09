@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+  <siteMapNode title="Rushabh Gosar" description="Rushabh Gosar" url="~/">
+    <siteMapNode title="ZoikIt" description="ZoikIt" url="~/index.php?type=img&amp;id=images/big/ZoikIt.jpg"/>
+    <siteMapNode title="Index" description="Index" url="~/index.php?type=video&amp;id=I4wrVt8jVzs"/>
+    <siteMapNode title="Index" description="Index" url="~/index.php?type=video&amp;id=zujxgtf7KrU"/>
+    <siteMapNode title="Resume rushabhgosar" description="Resume rushabhgosar" url="~/resume_rushabhgosar.pdf"/>
+    <siteMapNode title="Rushabh linkedin" description="Rushabh linkedin" url="~/rushabh_linkedin.pdf"/>
+    <siteMapNode title="Api" description="Api" url="~/api/">
+      <siteMapNode title="Xmlrpc" description="Xmlrpc" url="~/api/xmlrpc.php"/>
+      <siteMapNode title="Xmlrpc" description="Xmlrpc" url="~/api/xmlrpc.php?rsd"/>
+      <siteMapNode title="Apis" description="Apis" url="~/api/apis/">
+        <siteMapNode title="Feed" description="Feed" url="~/api/apis/feed/"/>
+      </siteMapNode>
+      <siteMapNode title="Author" description="Author" url="~/api/author/">
+        <siteMapNode title="Rushabh" description="Rushabh" url="~/api/author/rushabh/">
+          <siteMapNode title="Feed" description="Feed" url="~/api/author/rushabh/feed/"/>
+        </siteMapNode>
+      </siteMapNode>
+      <siteMapNode title="Category" description="Category" url="~/api/category/">
+        <siteMapNode title="C" description="C" url="~/api/category/c/">
+          <siteMapNode title="Feed" description="Feed" url="~/api/category/c/feed/"/>
+        </siteMapNode>
+        <siteMapNode title="Objective c" description="Objective c" url="~/api/category/objective-c/">
+          <siteMapNode title="Feed" description="Feed" url="~/api/category/objective-c/feed/"/>
+        </siteMapNode>
+        <siteMapNode title="Uncategorized" description="Uncategorized" url="~/api/category/uncategorized/">
+          <siteMapNode title="Feed" description="Feed" url="~/api/category/uncategorized/feed/"/>
+        </siteMapNode>
+      </siteMapNode>
+      <siteMapNode title="Comments" description="Comments" url="~/api/comments/">
+        <siteMapNode title="Feed" description="Feed" url="~/api/comments/feed/"/>
+      </siteMapNode>
+      <siteMapNode title="Documentation for android java" description="Documentation for android java" url="~/api/documentation-for-android-java/">
+        <siteMapNode title="Feed" description="Feed" url="~/api/documentation-for-android-java/feed/"/>
+      </siteMapNode>
+      <siteMapNode title="Documentation for net applications in c" description="Documentation for net applications in c" url="~/api/documentation-for-net-applications-in-c/">
+        <siteMapNode title="Feed" description="Feed" url="~/api/documentation-for-net-applications-in-c/feed/"/>
+      </siteMapNode>
+      <siteMapNode title="Documentation objective c" description="Documentation objective c" url="~/api/documentation-objective-c/">
+        <siteMapNode title="Feed" description="Feed" url="~/api/documentation-objective-c/feed/"/>
+      </siteMapNode>
+      <siteMapNode title="Feed" description="Feed" url="~/api/feed/"/>
+      <siteMapNode title="Score api documentation" description="Score api documentation" url="~/api/score-api-documentation/">
+        <siteMapNode title="Feed" description="Feed" url="~/api/score-api-documentation/feed/"/>
+      </siteMapNode>
+      <siteMapNode title="Tag" description="Tag" url="~/api/tag/">
+        <siteMapNode title="C 2" description="C 2" url="~/api/tag/c-2/">
+          <siteMapNode title="Feed" description="Feed" url="~/api/tag/c-2/feed/"/>
+        </siteMapNode>
+        <siteMapNode title="Ios" description="Ios" url="~/api/tag/ios/">
+          <siteMapNode title="Feed" description="Feed" url="~/api/tag/ios/feed/"/>
+        </siteMapNode>
+        <siteMapNode title="Ipad" description="Ipad" url="~/api/tag/ipad/">
+          <siteMapNode title="Feed" description="Feed" url="~/api/tag/ipad/feed/"/>
+        </siteMapNode>
+        <siteMapNode title="Iphone" description="Iphone" url="~/api/tag/iphone/">
+          <siteMapNode title="Feed" description="Feed" url="~/api/tag/iphone/feed/"/>
+        </siteMapNode>
+        <siteMapNode title="Objective c" description="Objective c" url="~/api/tag/objective-c/">
+          <siteMapNode title="Feed" description="Feed" url="~/api/tag/objective-c/feed/"/>
+        </siteMapNode>
+      </siteMapNode>
+      <siteMapNode title="Text2image documentation" description="Text2image documentation" url="~/api/text2image-documentation/">
+        <siteMapNode title="Feed" description="Feed" url="~/api/text2image-documentation/feed/"/>
+      </siteMapNode>
+      <siteMapNode title="Wp includes" description="Wp includes" url="~/api/wp-includes/">
+        <siteMapNode title="Wlwmanifest" description="Wlwmanifest" url="~/api/wp-includes/wlwmanifest.xml"/>
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="Apis" description="Apis" url="~/apis/">
+    </siteMapNode>
+    <siteMapNode title="Css" description="Css" url="~/css/">
+      <siteMapNode title="Flexslider" description="Flexslider" url="~/css/flexslider.html"/>
+      <siteMapNode title="Jquery" description="Jquery" url="~/css/jquery.tweet.html"/>
+      <siteMapNode title="Object carousel" description="Object carousel" url="~/css/object-carousel.html"/>
+    </siteMapNode>
+    <siteMapNode title="Img" description="Img" url="~/img/">
+      <siteMapNode title="Icons" description="Icons" url="~/img/icons/">
+        <siteMapNode title="Apple touch icon" description="Apple touch icon" url="~/img/icons/apple-touch-icon.html"/>
+        <siteMapNode title="Apple touch icon 114x114" description="Apple touch icon 114x114" url="~/img/icons/apple-touch-icon-114x114.html"/>
+        <siteMapNode title="Apple touch icon 72x72" description="Apple touch icon 72x72" url="~/img/icons/apple-touch-icon-72x72.html"/>
+        <siteMapNode title="Favicon" description="Favicon" url="~/img/icons/favicon.html"/>
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="Rushabhgosar" description="Rushabhgosar" url="~/rushabhgosar.com/">
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>
