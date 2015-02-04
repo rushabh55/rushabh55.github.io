@@ -54,28 +54,18 @@
 
 <script src="js/jquery.gmap.js"></script>
 <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-<script  type="text/javascript">
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date(); a = s.createElement(o),
-  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-    ga('create', 'UA-35391718-2', 'rushabhgosar.com');
-    ga('send', 'pageview');
+            ga('create', 'UA-59326290-1', 'auto');
+            ga('send', 'pageview');
 
-
-
-    //var adsRequest = new google.ima.AdsRequest();
-    //adsRequest.adTagUrl = "http://ad.doubleclick.net/pfadx/AngelaSite;kw=html5linearnonlinear;sz=300x300;ord=5036130;dcmt=text/xml";
-    //adsRequest.linearAdSlotWidth = 640;
-    //adsRequest.linearAdSlotHeight = 400;
-
-    //adsRequest.nonLinearAdSlotWidth = 640;
-    //adsRequest.nonLinearAdSlotHeight = 150;
-    //adsLoader.requestAds(adsRequest);
-</script>
+    </script>
 <script>
 </script>
 </head>
@@ -841,142 +831,117 @@
 							<li><i class="icon-envelope"></i><span><a href="mailto:rushabh.techie@gmail.com">rushabh.techie@gmail.com </a></span></li>
 						</ul>
 					</div>
-					<!--<div class="span4">
-						<div id="note"></div>
-						<form class="form" id="ajax-contact-form" action="javascript:alert('Was send!');">
-						<input type="text" name="name" class="span4" placeholder="Name" required/>
-						<input type="text" class="span4" name="email" placeholder="Email" required/>
-						<textarea name="message" placeholder="Message" rows="8" class="span4"></textarea>
-                        <a href="rushabhgosar.com/blog">
-						<button type="submit"  class="btn btn-success">SUBMIT</button>
-                        </a>
-						</form>						
-					</div>-->
 				</div>
-                
-                                <script style="margin-left: 50%">
-                                    google_ad_client = "ca-pub-7528245801897179";
-                                    google_ad_slot = "5022188991";
-                                    google_ad_width = 970;
-                                    google_ad_height = 90;
-                                </script>
-                                <!--<script  style="margin-left: 50%"
-                                src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-                                </script>-->
-
-
 			</section>
 			<!-- /Contact end -->
 			<footer><p>&copy;2014 Designed By Rushabh™</p></footer>	
 		<div style="content:close-quote;">
 
 
-<!--<?php
+<?php           
+        function getBrowser($show) 
+        { 
+            $host="rus1311807231982.db.10917081.hostedresource.com";
+            $user="rus1311807231982";
+            $pass="Rushabh%1";
+            $db="rus1311807231982";
+            $u_agent = $_SERVER['HTTP_USER_AGENT']; 
+            $bname = 'Unknown';
+            $platform = 'Unknown';
+            $version= "";
 
-           
-function getBrowser($show) 
-{ 
-    $host="rus1311807231982.db.10917081.hostedresource.com";
-    $user="rus1311807231982";
-    $pass="Rushabh%1";
-    $db="rus1311807231982";
-    $u_agent = $_SERVER['HTTP_USER_AGENT']; 
-    $bname = 'Unknown';
-    $platform = 'Unknown';
-    $version= "";
-
-    //First get the platform?
-    if (preg_match('/linux/i', $u_agent)) {
-        $platform = 'linux';
-    }
-    elseif (preg_match('/macintosh|mac os x/i', $u_agent)) {
-        $platform = 'mac';
-    }
-    elseif (preg_match('/windows|win32/i', $u_agent)) {
-        $platform = 'windows';
-    }
+            //First get the platform?
+            if (preg_match('/linux/i', $u_agent)) {
+                $platform = 'linux';
+            }
+            elseif (preg_match('/macintosh|mac os x/i', $u_agent)) {
+                $platform = 'mac';
+            }
+            elseif (preg_match('/windows|win32/i', $u_agent)) {
+                $platform = 'windows';
+            }
     
-    // Next get the name of the useragent yes seperately and for good reason
-    if(preg_match('/MSIE/i',$u_agent) && !preg_match('/Opera/i',$u_agent)) 
-    { 
-        $bname = 'Internet Explorer'; 
-        $ub = "MSIE"; 
-    } 
-    elseif(preg_match('/Firefox/i',$u_agent)) 
-    { 
-        $bname = 'Mozilla Firefox'; 
-        $ub = "Firefox"; 
-    } 
-    elseif(preg_match('/Chrome/i',$u_agent)) 
-    { 
-        $bname = 'Google Chrome'; 
-        $ub = "Chrome"; 
-    } 
-    elseif(preg_match('/Safari/i',$u_agent)) 
-    { 
-        $bname = 'Apple Safari'; 
-        $ub = "Safari"; 
-    } 
-    elseif(preg_match('/Opera/i',$u_agent)) 
-    { 
-        $bname = 'Opera'; 
-        $ub = "Opera"; 
-    } 
-    elseif(preg_match('/Netscape/i',$u_agent)) 
-    { 
-        $bname = 'Netscape'; 
-        $ub = "Netscape"; 
-    } 
+            // Next get the name of the useragent yes seperately and for good reason
+            if(preg_match('/MSIE/i',$u_agent) && !preg_match('/Opera/i',$u_agent)) 
+            { 
+                $bname = 'Internet Explorer'; 
+                $ub = "MSIE"; 
+            } 
+            elseif(preg_match('/Firefox/i',$u_agent)) 
+            { 
+                $bname = 'Mozilla Firefox'; 
+                $ub = "Firefox"; 
+            } 
+            elseif(preg_match('/Chrome/i',$u_agent)) 
+            { 
+                $bname = 'Google Chrome'; 
+                $ub = "Chrome"; 
+            } 
+            elseif(preg_match('/Safari/i',$u_agent)) 
+            { 
+                $bname = 'Apple Safari'; 
+                $ub = "Safari"; 
+            } 
+            elseif(preg_match('/Opera/i',$u_agent)) 
+            { 
+                $bname = 'Opera'; 
+                $ub = "Opera"; 
+            } 
+            elseif(preg_match('/Netscape/i',$u_agent)) 
+            { 
+                $bname = 'Netscape'; 
+                $ub = "Netscape"; 
+            } 
     
-    // finally get the correct version number
-    $known = array('Version', $ub, 'other');
-    $pattern = '#(?<browser>' . join('|', $known) .
-    ')[/ ]+(?<version>[0-9.|a-zA-Z.]*)#';
-    if (!preg_match_all($pattern, $u_agent, $matches)) {
-        // we have no matching number just continue
-    }
+            // finally get the correct version number
+            $known = array('Version', $ub, 'other');
+            $pattern = '#(?<browser>' . join('|', $known) .
+            ')[/ ]+(?<version>[0-9.|a-zA-Z.]*)#';
+            if (!preg_match_all($pattern, $u_agent, $matches)) {
+                // we have no matching number just continue
+            }
     
-    // see how many we have
-    $i = count($matches['browser']);
-    if ($i != 1) {
-        //we will have two since we are not using 'other' argument yet
-        //see if version is before or after the name
-        if (strripos($u_agent,"Version") < strripos($u_agent,$ub)){
-            $version= $matches['version'][0];
-        }
-        else {
-            $version= $matches['version'][1];
-        }
-    }
-    else {
-        $version= $matches['version'][0];
-    }
-    
-    // check if we have a number
-    if ($version==null || $version=="") {$version="?";}
- 
-                $date = date('Y-m-d H:i:s');
-                $country= file_get_contents('http://api.hostip.info/get_html.php?ip='.$_SERVER["REMOTE_ADDR"]);
-                mysql_connect($host, $user, $pass) OR DIE (mysql_error());
-                $host_name = gethostbyaddr($_SERVER['REMOTE_ADDR']);
-				$path = $_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];
-                mysql_select_db ($db) OR DIE ("Unable to select db".mysql_error());
-                $sql = "INSERT INTO VisitorInfo 
-                (IP,Date,Country,Browser,HostName,compName,URL)
-                VALUES
-                ('{$_SERVER["REMOTE_ADDR"]}', '{$date}', '{$country}', '{($u_agent . $bname . $version . $platform . $pattern)}' , '{$host_name}', '{$_GET['name']}', '{$path}') ";
-                mysql_query($sql) or die("Error in Query: " . mysql_error());
-            
-                // insert the image
-                mysql_query($sql) or die("Error in Query: " . mysql_error());
-                $msg='<p>Total Visits on this Website - '. ((int)((int)mysql_insert_id() / 4)).'';
-                if($show)
-                    echo '<strong>' . $msg . '</strong>';           
+            // see how many we have
+            $i = count($matches['browser']);
+            if ($i != 1) {
+                //we will have two since we are not using 'other' argument yet
+                //see if version is before or after the name
+                if (strripos($u_agent,"Version") < strripos($u_agent,$ub)){
+                    $version= $matches['version'][0];
                 }
+                else {
+                    $version= $matches['version'][1];
+                }
+            }
+            else {
+                $version= $matches['version'][0];
+            }
+    
+            // check if we have a number
+            if ($version==null || $version=="") {$version="?";}
+ 
+                        $date = date('Y-m-d H:i:s');
+                        $country= file_get_contents('http://api.hostip.info/get_html.php?ip='.$_SERVER["REMOTE_ADDR"]);
+                        mysql_connect($host, $user, $pass) OR DIE (mysql_error());
+                        $host_name = gethostbyaddr($_SERVER['REMOTE_ADDR']);
+				        $path = $_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];
+                        mysql_select_db ($db) OR DIE ("Unable to select db".mysql_error());
+                        $sql = "INSERT INTO VisitorInfo 
+                        (IP,Date,Country,Browser,HostName,compName,URL)
+                        VALUES
+                        ('{$_SERVER["REMOTE_ADDR"]}', '{$date}', '{$country}', '{($u_agent . $bname . $version . $platform . $pattern)}' , '{$host_name}', '{$_GET['name']}', '{$path}') ";
+                        mysql_query($sql) or die("Error in Query: " . mysql_error());
+            
+                        // insert the image
+                        mysql_query($sql) or die("Error in Query: " . mysql_error());
+                        $msg='<p>Total Visits on this Website - '. ((int)((int)mysql_insert_id() / 4)).'';
+                        if($show)
+                            echo '<strong>' . $msg . '</strong>';           
+                        }
 
-                $show = 1;
-                getBrowser($show);
- ?>-->
+                        $show = 1;
+                        getBrowser($show);
+         ?>
 <br />
 <div style="height:10px">
 </div>
