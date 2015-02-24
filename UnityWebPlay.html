@@ -46,6 +46,17 @@
     <script type="text/javascript" src="http://webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/UnityObject2.js">
 
     </script>
+
+    <script type="text/javascript">
+        var lightOn = true;
+        function Light() {
+            lightOn = !lightOn;
+            if ( !lightOn )
+                document.getElementById('bglayer').style.backgroundColor = "black";
+            else
+                document.getElementById('bglayer').style.backgroundColor = "rgb(24, 188, 156)";
+        }
+    </script>
     <script type="text/javascript">
         
         function parseSecond(val) {
@@ -61,8 +72,8 @@
         var gameName = (parseSecond('path'));
         if (gameName != null && gameName != "" && gameName != "Not found") {
             var config = {
-                width: 960,
-                height: 600,
+                width: 1150,
+                height: 900,
                 params: { enableDebugging: "0" }
             };
             var u = new UnityObject2(config);
@@ -100,9 +111,36 @@
                     }
                 });
                 jQuery("#unityPlayer").show();
-                u.initPlugin(jQuery("#unityPlayer")[0], gameName + ".blob");                
+                u.initPlugin(jQuery("#unityPlayer")[0], gameName + ".blob");
+                setStrings();
                 jQuery('#message').hide();
             });
+
+            function setStrings() {
+                var desc = '<h2>Description : </h2><h4><br />', controls = '<h2>Controls : </h2><h4><br />';
+                switch (gameName) {
+                    case "demos/webplayer/AU": desc += "Ambiguous Utopia is a music-influenced action shooter in which players develop and protect their musical ideas with added strategic gameplay through tower defense elements. Implemented some of the gameplay components of this game, design ideas, created website, and worked on the prototype version of the game ";
+                        controls += "Move : WASD <br /> Shoot: L Click <br /> Charge Attack : R Click <br /> Projectile Tower : 1 <br /> Wave Tower : 2 ";
+                        break;
+                    case "demos/webplayer/ralph": desc += "Ambiguous Utopia is a music-influenced action shooter in which players develop and protect their musical ideas with added strategic gameplay through tower defense elements. Implemented some of the gameplay components of this game, design ideas, created website, and worked on the prototype version of the game ";
+                        controls += "Move : WASD <br /> Toggle Speed of Light Mode: T <br />Other Controls will be popped on the screen";
+                        break;
+                    case "demos/webplayer/pathfinder": desc += "Ambiguous Utopia is a music-influenced action shooter in which players develop and protect their musical ideas with added strategic gameplay through tower defense elements. Implemented some of the gameplay components of this game, design ideas, created website, and worked on the prototype version of the game ";
+                        controls += "Just click on one of the two buttons 'BFS' or 'A*'";
+                        break;
+                    case "demos/webplayer/londonhollows": desc += "Ambiguous Utopia is a music-influenced action shooter in which players develop and protect their musical ideas with added strategic gameplay through tower defense elements. Implemented some of the gameplay components of this game, design ideas, created website, and worked on the prototype version of the game ";
+                        controls += "Move : WASD <br /> Flashlight : F <br /> Pick Item : E <br /> Sprint : L Shift <br /> Pause : Escape ";
+                        break;
+                    case "demos/webplayer/terrain": desc += "Ambiguous Utopia is a music-influenced action shooter in which players develop and protect their musical ideas with added strategic gameplay through tower defense elements. Implemented some of the gameplay components of this game, design ideas, created website, and worked on the prototype version of the game ";
+                        controls += "Move : WASD <br /> Keep exploring the world";
+                        break;
+
+                }
+                desc += '</h4>'
+                controls += '</h4>';
+                document.getElementById('desc').innerHTML = desc;
+                document.getElementById('controls').innerHTML = controls;
+            }
         }
     </script>
     <!--END-->
@@ -145,7 +183,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#page-top">Rushabh's Portfolio</a>
+                <a class="navbar-brand" href="http://rushg.me">Rushabh's Portfolio</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -155,10 +193,10 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#portfolio">Projects</a>
+                        <a href="#desc">Project Description</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#work">Work Ex</a>
+                        <a href="#controls">Controls</a>
                     </li>
                 </ul>
             </div>
@@ -168,19 +206,32 @@
     </nav>
 
     <!-- Header -->
-    <header>
+    <header id="bglayer">
         <div class="container">
             <div class="row">
                 <div class="content">
-                    <div id="unityPlayer" hidden="hidden">
+                    <div id="unityPlayer" class="center-block" hidden="hidden">
                         <div class="missing">
                             <a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
                                 <img alt="Unity Web Player. Install now!" src="http://webplayer.unity3d.com/installation/getunity.png" width="193" height="63" />
                             </a>
                         </div>
                     </div>
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <a onclick="Light()" class="btn btn-lg btn-outline">
+                            <i class="fa fa-lightbulb-o"></i>
+                        </a>
+                        <br /><br />
+                    </div>
+                    <div class="content" id="desc">
+
+                    </div>
+                    <br /><br />
+                    <div class="content" id="controls">
+
+                    </div>
                     <span id="message">
-                        Hey! There is some problem in the web player!
+                        Hey! There is some problem in the web player! We're sorry! Please go back to main site : http://rushg.me
                     </span>
                 </div>
             </div>
@@ -239,69 +290,6 @@
         <a class="btn btn-primary" href="#page-top">
             <i class="fa fa-chevron-up"></i>
         </a>
-    </div>
-
-
-    <!--FULL DESC-->
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="ambigiousutopia" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Ambigious Utopia(Codename)</h2>
-                            <hr class="star-primary">
-                            <!--New Stuff-->
-                            <div class="container col-lg-10 col-lg-offset-1">
-                                <div class="portfolio-item">
-                                    <a href="http://rushg.me/demos/AU/Web/" class="portfolio-link">
-                                        <img src="img/JPGs/RALPH.jpg" class="img-responsive" alt="Existential Cooking Crisis">
-                                        <div class="caption force-align">
-                                            <div class="caption-content">
-                                                <i class="fa fa-play-circle fa-3x"></i>
-                                                <br /><br />
-                                                <div class="text-center PowerFont">
-                                                    <span><b>Play Game</b></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <p>Ambiguous Utopia is a music-influenced action shooter in which players develop and protect their musical ideas with added strategic gameplay through tower defense elements. Implemented some of the gameplay components of this game, design ideas, created website, and worked on the prototype version of the game </p>
-                            <ul class="list-inline item-details">
-                                <li>
-                                    Technologies:
-                                    <strong>
-                                        <a href="http://rushabh-techie.me/capstoneWebsite/demo/Web/Web.html">C#, Unity3D 5.0 beta, ShaderLab</a>
-                                    </strong>
-                                </li>
-                                <li>
-                                    Duration:
-                                    <strong>
-                                        September 2014 - Present
-                                    </strong>
-                                </li>
-                                <li>
-                                    Other Teammates:
-                                    <strong>
-                                        Brian Clanton, Ruiwei Bu, Leigh Rage
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 
     <!--END OF PROJECT DESC-->
