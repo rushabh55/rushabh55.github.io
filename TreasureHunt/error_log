@@ -1,0 +1,219 @@
+[05-Feb-2015 19:08:02 America/New_York] PHP Fatal error:  Class 'Connector' not found in /home/rushjzvr/public_html/TreasureHunt/User.php on line 4
+[05-Feb-2015 19:10:56 America/New_York] PHP Warning:  require_once(/PHPConnector.php): failed to open stream: No such file or directory in /home/rushjzvr/public_html/TreasureHunt/User.php on line 2
+[05-Feb-2015 19:10:56 America/New_York] PHP Fatal error:  require_once(): Failed opening required '/PHPConnector.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rushjzvr/public_html/TreasureHunt/User.php on line 2
+[05-Feb-2015 19:12:54 America/New_York] PHP Warning:  mysql_connect(): Unknown MySQL server host 'rushjzvr_TreasureHunt' (2) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 10
+[05-Feb-2015 19:12:54 America/New_York] PHP Fatal error:  Call to undefined function json_ecode() in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 12
+[05-Feb-2015 19:14:32 America/New_York] PHP Warning:  mysql_connect(): Unknown MySQL server host 'rushjzvr_TreasureHunt' (2) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 10
+[05-Feb-2015 19:14:32 America/New_York] PHP Fatal error:  Call to undefined function json_ecode() in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 12
+[05-Feb-2015 19:14:35 America/New_York] PHP Warning:  mysql_connect(): Unknown MySQL server host 'rushjzvr_TreasureHunt' (2) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 10
+[05-Feb-2015 19:14:35 America/New_York] PHP Fatal error:  Call to undefined function json_ecode() in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 12
+[05-Feb-2015 19:16:47 America/New_York] PHP Warning:  mysql_connect(): Unknown MySQL server host 'rushjzvr_TreasureHunt' (2) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 10
+[05-Feb-2015 19:16:47 America/New_York] PHP Fatal error:  Call to undefined function json_ecode() in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 12
+[05-Feb-2015 19:16:49 America/New_York] PHP Warning:  mysql_connect(): Unknown MySQL server host 'rushjzvr_TreasureHunt' (2) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 10
+[05-Feb-2015 19:16:49 America/New_York] PHP Fatal error:  Call to undefined function json_ecode() in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 12
+[05-Feb-2015 19:27:01 America/New_York] PHP Warning:  mysql_connect(): Unknown MySQL server host 'rushjzvr_TreasureHunt' (2) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 10
+[05-Feb-2015 19:27:01 America/New_York] PHP Fatal error:  Call to undefined function json_ecode() in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 12
+[05-Feb-2015 19:27:46 America/New_York] PHP Warning:  mysql_connect(): Can't connect to MySQL server on '129.21.23.152' (110) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 10
+[05-Feb-2015 19:30:48 America/New_York] PHP Warning:  mysqli::mysqli(): (HY000/2003): Can't connect to MySQL server on '129.21.23.152' (110) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 14
+[05-Feb-2015 19:30:48 America/New_York] PHP Warning:  var_dump(): Property access is not allowed yet in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 15
+[05-Feb-2015 19:30:48 America/New_York] PHP Warning:  var_dump(): Property access is not allowed yet in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 15
+[05-Feb-2015 19:30:48 America/New_York] PHP Warning:  var_dump(): Couldn't fetch mysqli in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 15
+[05-Feb-2015 19:30:48 America/New_York] PHP Warning:  var_dump(): Couldn't fetch mysqli in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 15
+[05-Feb-2015 19:30:48 America/New_York] PHP Warning:  var_dump(): Property access is not allowed yet in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 15
+[05-Feb-2015 19:30:48 America/New_York] PHP Warning:  var_dump(): Couldn't fetch mysqli in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 15
+[05-Feb-2015 19:30:48 America/New_York] PHP Warning:  var_dump(): Couldn't fetch mysqli in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 15
+[05-Feb-2015 19:30:48 America/New_York] PHP Warning:  var_dump(): Couldn't fetch mysqli in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 15
+[05-Feb-2015 19:30:48 America/New_York] PHP Warning:  var_dump(): Couldn't fetch mysqli in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 15
+[05-Feb-2015 19:30:48 America/New_York] PHP Warning:  var_dump(): Couldn't fetch mysqli in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 15
+[05-Feb-2015 19:30:48 America/New_York] PHP Warning:  var_dump(): Couldn't fetch mysqli in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 15
+[05-Feb-2015 19:30:48 America/New_York] PHP Warning:  var_dump(): Property access is not allowed yet in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 15
+[05-Feb-2015 19:30:48 America/New_York] PHP Warning:  var_dump(): Couldn't fetch mysqli in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 15
+[05-Feb-2015 19:30:48 America/New_York] PHP Warning:  var_dump(): Couldn't fetch mysqli in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 15
+[05-Feb-2015 19:30:48 America/New_York] PHP Warning:  var_dump(): Couldn't fetch mysqli in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 15
+[05-Feb-2015 19:30:48 America/New_York] PHP Warning:  var_dump(): Couldn't fetch mysqli in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 15
+[05-Feb-2015 19:30:48 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 16
+[05-Feb-2015 19:32:16 America/New_York] PHP Warning:  mysqli::mysqli(): (HY000/2003): Can't connect to MySQL server on '129.21.23.152' (110) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 14
+[05-Feb-2015 19:32:16 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 16
+[05-Feb-2015 19:38:37 America/New_York] PHP Warning:  mysql_connect(): Can't connect to MySQL server on '129.21.23.152' (110) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 14
+[05-Feb-2015 19:38:37 America/New_York] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 15
+[05-Feb-2015 19:38:37 America/New_York] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 16
+[05-Feb-2015 19:38:44 America/New_York] PHP Warning:  mysqli::mysqli(): (HY000/2003): Can't connect to MySQL server on '129.21.23.152' (110) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 17
+[05-Feb-2015 19:38:44 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 19
+[05-Feb-2015 19:39:47 America/New_York] PHP Warning:  mysql_connect(): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 14
+[05-Feb-2015 19:39:47 America/New_York] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 15
+[05-Feb-2015 19:39:47 America/New_York] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 16
+[05-Feb-2015 19:39:47 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 17
+[05-Feb-2015 19:39:47 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 19
+[05-Feb-2015 19:44:11 America/New_York] PHP Warning:  mysql_connect(): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 14
+[05-Feb-2015 19:44:11 America/New_York] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 15
+[05-Feb-2015 19:44:11 America/New_York] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 16
+[05-Feb-2015 19:44:11 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 17
+[05-Feb-2015 19:44:11 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 19
+[06-Feb-2015 11:48:24 America/New_York] PHP Warning:  mysql_connect(): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 14
+[06-Feb-2015 11:48:24 America/New_York] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 15
+[06-Feb-2015 11:48:24 America/New_York] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 16
+[06-Feb-2015 11:48:24 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 17
+[06-Feb-2015 11:48:24 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 19
+[06-Feb-2015 12:22:40 America/New_York] PHP Warning:  mysql_connect(): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 14
+[06-Feb-2015 12:22:40 America/New_York] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 15
+[06-Feb-2015 12:22:40 America/New_York] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 16
+[06-Feb-2015 12:22:40 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 17
+[06-Feb-2015 12:22:40 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 19
+[06-Feb-2015 12:30:02 America/New_York] PHP Warning:  mysql_connect(): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 14
+[06-Feb-2015 12:30:02 America/New_York] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 15
+[06-Feb-2015 12:30:02 America/New_York] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 16
+[06-Feb-2015 12:30:02 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 17
+[06-Feb-2015 12:30:02 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 19
+[06-Feb-2015 12:30:05 America/New_York] PHP Warning:  mysql_connect(): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 14
+[06-Feb-2015 12:30:05 America/New_York] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 15
+[06-Feb-2015 12:30:05 America/New_York] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 16
+[06-Feb-2015 12:30:05 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 17
+[06-Feb-2015 12:30:05 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 19
+[06-Feb-2015 12:30:11 America/New_York] PHP Warning:  mysql_connect(): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 14
+[06-Feb-2015 12:30:11 America/New_York] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 15
+[06-Feb-2015 12:30:11 America/New_York] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 16
+[06-Feb-2015 12:30:11 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 17
+[06-Feb-2015 12:30:11 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 19
+[06-Feb-2015 12:40:27 America/New_York] PHP Warning:  mysql_connect(): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 14
+[06-Feb-2015 12:40:27 America/New_York] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 15
+[06-Feb-2015 12:40:27 America/New_York] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 16
+[06-Feb-2015 12:40:27 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 17
+[06-Feb-2015 12:40:27 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 19
+[06-Feb-2015 12:40:30 America/New_York] PHP Warning:  mysql_connect(): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 14
+[06-Feb-2015 12:40:30 America/New_York] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 15
+[06-Feb-2015 12:40:30 America/New_York] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 16
+[06-Feb-2015 12:40:30 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 17
+[06-Feb-2015 12:40:30 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 19
+[06-Feb-2015 12:43:45 America/New_York] PHP Warning:  mysql_connect(): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 14
+[06-Feb-2015 12:43:45 America/New_York] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 15
+[06-Feb-2015 12:43:53 America/New_York] PHP Warning:  mysql_connect(): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 14
+[06-Feb-2015 12:43:53 America/New_York] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 15
+[06-Feb-2015 13:05:53 America/New_York] PHP Warning:  mysql_connect(): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 14
+[06-Feb-2015 13:05:53 America/New_York] PHP Warning:  mysql_connect(): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 14
+[06-Feb-2015 13:05:59 America/New_York] PHP Warning:  mysql_connect(): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 14
+[06-Feb-2015 13:23:48 America/New_York] PHP Parse error:  syntax error, unexpected '”' (T_STRING) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 4
+[06-Feb-2015 13:23:53 America/New_York] PHP Parse error:  syntax error, unexpected '”' (T_STRING) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 4
+[06-Feb-2015 13:24:50 America/New_York] PHP Warning:  mysql_connect(): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 14
+[06-Feb-2015 13:40:37 America/New_York] PHP Warning:  mysql_connect(): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 14
+[06-Feb-2015 13:40:39 America/New_York] PHP Warning:  mysql_connect(): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 14
+[06-Feb-2015 13:40:41 America/New_York] PHP Warning:  mysql_connect(): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 14
+[06-Feb-2015 13:41:06 America/New_York] PHP Warning:  mysql_connect(): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 14
+[06-Feb-2015 13:41:06 America/New_York] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 16
+[06-Feb-2015 13:41:06 America/New_York] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 18
+[06-Feb-2015 13:41:06 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 19
+[06-Feb-2015 13:41:06 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 21
+[06-Feb-2015 13:47:43 America/New_York] PHP Warning:  mysql_connect(): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 14
+[06-Feb-2015 13:47:43 America/New_York] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 16
+[06-Feb-2015 13:47:43 America/New_York] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 18
+[06-Feb-2015 13:47:43 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 19
+[06-Feb-2015 13:47:43 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 21
+[06-Feb-2015 13:51:55 America/New_York] PHP Warning:  mysql_connect(): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 14
+[06-Feb-2015 13:51:55 America/New_York] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 16
+[06-Feb-2015 13:51:55 America/New_York] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 18
+[06-Feb-2015 13:51:55 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 19
+[06-Feb-2015 13:51:55 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 21
+[06-Feb-2015 13:55:12 America/New_York] PHP Warning:  mysql_connect(): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 14
+[06-Feb-2015 13:55:12 America/New_York] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 16
+[06-Feb-2015 13:55:12 America/New_York] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 18
+[06-Feb-2015 13:55:12 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'rushjzvr_rushabh'@'s143.web-hosting.com' (using password: YES) in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 19
+[06-Feb-2015 13:55:12 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/rushjzvr/public_html/TreasureHunt/PHPConnector.php on line 21
+[07-Feb-2015 16:00:50 America/New_York] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 28
+[07-Feb-2015 16:03:29 America/New_York] PHP Warning:  Missing argument 1 for getNearestHunts(), called in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 53 and defined in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 37
+[07-Feb-2015 16:10:10 America/New_York] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 44
+[07-Feb-2015 16:10:32 America/New_York] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 44
+[07-Feb-2015 16:10:33 America/New_York] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 44
+[07-Feb-2015 16:10:34 America/New_York] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 44
+[07-Feb-2015 16:10:35 America/New_York] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 44
+[07-Feb-2015 16:12:15 America/New_York] PHP Fatal error:  Call to undefined method Connector::mysql_fetch_object() in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 44
+[07-Feb-2015 16:16:53 America/New_York] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, object given in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 44
+[07-Feb-2015 16:16:54 America/New_York] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, object given in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 44
+[07-Feb-2015 16:16:55 America/New_York] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, object given in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 44
+[07-Feb-2015 17:35:10 America/New_York] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 39
+[07-Feb-2015 17:35:21 America/New_York] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 39
+[07-Feb-2015 17:35:31 America/New_York] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 39
+[07-Feb-2015 17:35:32 America/New_York] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 39
+[07-Feb-2015 17:35:33 America/New_York] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 39
+[07-Feb-2015 17:35:33 America/New_York] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 39
+[07-Feb-2015 17:36:09 America/New_York] PHP Parse error:  syntax error, unexpected ',' in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 39
+[07-Feb-2015 17:41:11 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 63
+[07-Feb-2015 21:12:34 America/New_York] PHP Warning:  Missing argument 1 for img(), called in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 16 and defined in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 4
+[07-Feb-2015 21:12:34 America/New_York] PHP Warning:  Missing argument 2 for img(), called in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 16 and defined in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 4
+[07-Feb-2015 21:12:34 America/New_York] PHP Warning:  Missing argument 3 for img(), called in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 16 and defined in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 4
+[07-Feb-2015 21:12:34 America/New_York] PHP Warning:  Missing argument 4 for img(), called in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 16 and defined in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 4
+[07-Feb-2015 21:12:34 America/New_York] PHP Warning:  Missing argument 5 for img(), called in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 16 and defined in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 4
+[07-Feb-2015 21:12:34 America/New_York] PHP Warning:  Missing argument 6 for img(), called in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 16 and defined in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 4
+[07-Feb-2015 21:12:55 America/New_York] PHP Warning:  Missing argument 1 for img(), called in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 16 and defined in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 4
+[07-Feb-2015 21:12:55 America/New_York] PHP Warning:  Missing argument 2 for img(), called in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 16 and defined in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 4
+[07-Feb-2015 21:12:55 America/New_York] PHP Warning:  Missing argument 3 for img(), called in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 16 and defined in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 4
+[07-Feb-2015 21:12:55 America/New_York] PHP Warning:  Missing argument 4 for img(), called in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 16 and defined in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 4
+[07-Feb-2015 21:12:55 America/New_York] PHP Warning:  Missing argument 5 for img(), called in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 16 and defined in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 4
+[07-Feb-2015 21:12:55 America/New_York] PHP Warning:  Missing argument 6 for img(), called in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 16 and defined in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 4
+[07-Feb-2015 21:12:56 America/New_York] PHP Warning:  Missing argument 1 for img(), called in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 16 and defined in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 4
+[07-Feb-2015 21:12:56 America/New_York] PHP Warning:  Missing argument 2 for img(), called in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 16 and defined in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 4
+[07-Feb-2015 21:12:56 America/New_York] PHP Warning:  Missing argument 3 for img(), called in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 16 and defined in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 4
+[07-Feb-2015 21:12:56 America/New_York] PHP Warning:  Missing argument 4 for img(), called in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 16 and defined in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 4
+[07-Feb-2015 21:12:56 America/New_York] PHP Warning:  Missing argument 5 for img(), called in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 16 and defined in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 4
+[07-Feb-2015 21:12:56 America/New_York] PHP Warning:  Missing argument 6 for img(), called in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 16 and defined in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 4
+[07-Feb-2015 21:12:57 America/New_York] PHP Warning:  Missing argument 1 for img(), called in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 16 and defined in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 4
+[07-Feb-2015 21:12:57 America/New_York] PHP Warning:  Missing argument 2 for img(), called in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 16 and defined in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 4
+[07-Feb-2015 21:12:57 America/New_York] PHP Warning:  Missing argument 3 for img(), called in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 16 and defined in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 4
+[07-Feb-2015 21:12:57 America/New_York] PHP Warning:  Missing argument 4 for img(), called in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 16 and defined in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 4
+[07-Feb-2015 21:12:57 America/New_York] PHP Warning:  Missing argument 5 for img(), called in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 16 and defined in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 4
+[07-Feb-2015 21:12:57 America/New_York] PHP Warning:  Missing argument 6 for img(), called in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 16 and defined in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 4
+[07-Feb-2015 21:20:40 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 10
+[07-Feb-2015 21:20:40 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rushjzvr/public_html/TreasureHunt/testimg.php:2) in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 13
+[07-Feb-2015 21:21:32 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rushjzvr/public_html/TreasureHunt/testimg.php:2) in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 13
+[07-Feb-2015 21:21:55 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rushjzvr/public_html/TreasureHunt/testimg.php:2) in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 13
+[07-Feb-2015 21:25:12 America/New_York] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 21
+[07-Feb-2015 21:25:59 America/New_York] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 22
+[07-Feb-2015 21:26:30 America/New_York] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 13
+[07-Feb-2015 21:26:31 America/New_York] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 13
+[07-Feb-2015 21:26:32 America/New_York] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 13
+[07-Feb-2015 21:26:57 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/rushjzvr/public_html/TreasureHunt/testimg.php on line 10
+[08-Feb-2015 13:16:05 America/New_York] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/rushjzvr/public_html/TreasureHunt/User.php on line 40
+[08-Feb-2015 13:16:06 America/New_York] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/rushjzvr/public_html/TreasureHunt/User.php on line 40
+[08-Feb-2015 13:16:07 America/New_York] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/rushjzvr/public_html/TreasureHunt/User.php on line 40
+[08-Feb-2015 13:16:08 America/New_York] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/rushjzvr/public_html/TreasureHunt/User.php on line 40
+[08-Feb-2015 13:16:09 America/New_York] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/rushjzvr/public_html/TreasureHunt/User.php on line 40
+[08-Feb-2015 13:16:10 America/New_York] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/rushjzvr/public_html/TreasureHunt/User.php on line 40
+[08-Feb-2015 13:16:11 America/New_York] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/rushjzvr/public_html/TreasureHunt/User.php on line 40
+[08-Feb-2015 13:16:12 America/New_York] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/rushjzvr/public_html/TreasureHunt/User.php on line 40
+[08-Feb-2015 13:16:13 America/New_York] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/rushjzvr/public_html/TreasureHunt/User.php on line 40
+[08-Feb-2015 13:16:14 America/New_York] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/rushjzvr/public_html/TreasureHunt/User.php on line 40
+[08-Feb-2015 13:16:15 America/New_York] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/rushjzvr/public_html/TreasureHunt/User.php on line 40
+[08-Feb-2015 13:16:16 America/New_York] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/rushjzvr/public_html/TreasureHunt/User.php on line 40
+[08-Feb-2015 13:16:17 America/New_York] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/rushjzvr/public_html/TreasureHunt/User.php on line 40
+[08-Feb-2015 13:16:18 America/New_York] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/rushjzvr/public_html/TreasureHunt/User.php on line 40
+[08-Feb-2015 13:16:19 America/New_York] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/rushjzvr/public_html/TreasureHunt/User.php on line 40
+[08-Feb-2015 13:16:20 America/New_York] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/rushjzvr/public_html/TreasureHunt/User.php on line 40
+[08-Feb-2015 13:16:21 America/New_York] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/rushjzvr/public_html/TreasureHunt/User.php on line 40
+[08-Feb-2015 13:16:22 America/New_York] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/rushjzvr/public_html/TreasureHunt/User.php on line 40
+[08-Feb-2015 13:16:23 America/New_York] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/rushjzvr/public_html/TreasureHunt/User.php on line 40
+[08-Feb-2015 13:16:24 America/New_York] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/rushjzvr/public_html/TreasureHunt/User.php on line 40
+[08-Feb-2015 13:16:25 America/New_York] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/rushjzvr/public_html/TreasureHunt/User.php on line 40
+[08-Feb-2015 13:25:09 America/New_York] PHP Warning:  Missing argument 4 for addUser(), called in /home/rushjzvr/public_html/TreasureHunt/User.php on line 38 and defined in /home/rushjzvr/public_html/TreasureHunt/User.php on line 3
+[08-Feb-2015 14:18:29 America/New_York] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, resource given in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 52
+[08-Feb-2015 15:10:14 America/New_York] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/rushjzvr/public_html/TreasureHunt/dashboard.php on line 3
+[08-Feb-2015 15:11:02 America/New_York] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, resource given in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 52
+[08-Feb-2015 15:16:13 America/New_York] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, resource given in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 52
+[08-Feb-2015 15:17:22 America/New_York] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, resource given in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 52
+[08-Feb-2015 15:17:24 America/New_York] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, resource given in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 52
+[08-Feb-2015 15:18:30 America/New_York] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, resource given in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 52
+[08-Feb-2015 15:18:32 America/New_York] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, resource given in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 52
+[08-Feb-2015 15:19:13 America/New_York] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, resource given in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 52
+[08-Feb-2015 15:19:15 America/New_York] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, resource given in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 52
+[08-Feb-2015 15:19:16 America/New_York] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, resource given in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 52
+[08-Feb-2015 15:19:17 America/New_York] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, resource given in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 52
+[08-Feb-2015 15:19:20 America/New_York] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, resource given in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 52
+[08-Feb-2015 15:20:19 America/New_York] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, resource given in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 52
+[08-Feb-2015 15:28:46 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/rushjzvr/public_html/TreasureHunt/dashboard.php on line 3
+[08-Feb-2015 16:15:55 America/New_York] PHP Warning:  explode() expects parameter 2 to be string, resource given in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 30
+[08-Feb-2015 16:15:55 America/New_York] PHP Warning:  explode() expects parameter 2 to be string, resource given in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 30
+[08-Feb-2015 16:18:16 America/New_York] PHP Warning:  explode() expects parameter 2 to be string, resource given in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 30
+[08-Feb-2015 16:18:16 America/New_York] PHP Warning:  explode() expects parameter 2 to be string, resource given in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 30
+[08-Feb-2015 16:18:51 America/New_York] PHP Warning:  explode() expects parameter 2 to be string, resource given in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 30
+[08-Feb-2015 16:18:51 America/New_York] PHP Warning:  explode() expects parameter 2 to be string, resource given in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 30
+[08-Feb-2015 16:22:13 America/New_York] PHP Warning:  explode() expects parameter 2 to be string, resource given in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 30
+[08-Feb-2015 16:22:13 America/New_York] PHP Warning:  explode() expects parameter 2 to be string, resource given in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 30
+[08-Feb-2015 16:22:20 America/New_York] PHP Warning:  explode() expects parameter 2 to be string, resource given in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 30
+[08-Feb-2015 16:22:20 America/New_York] PHP Warning:  explode() expects parameter 2 to be string, resource given in /home/rushjzvr/public_html/TreasureHunt/hunt.php on line 30

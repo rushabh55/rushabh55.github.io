@@ -61,39 +61,39 @@ Deny from all
 </Files>
 # BEGIN Browser Caching/Headers
 <IfModule mod_mime.c>
-    AddType text/css .css
-    AddType text/richtext .rtf .rtx
+    AddType text/css .css  "access plus 2592000 seconds"
+    AddType text/richtext .rtf .rtx  "access plus 2592000 seconds"
     AddType image/svg+xml .svg .svgz
     AddType text/plain .txt
     AddType text/xsd .xsd
     AddType text/xsl .xsl
-    AddType video/asf .asf .asx .wax .wmv .wmx
-    AddType video/avi .avi
-    AddType image/bmp .bmp
-    AddType application/java .class
+    AddType video/asf .asf .asx .wax .wmv .wmx  "access plus 2592000 seconds"
+    AddType video/avi .avi  "access plus 2592000 seconds"
+    AddType image/bmp .bmp  "access plus 2592000 seconds"
+    AddType application/java .class  "access plus 2592000 seconds"
     AddType video/divx .divx
     AddType application/msword .doc .docx
     AddType application/x-msdownload .exe
     AddType image/gif .gif
     AddType application/x-gzip .gz .gzip
     AddType image/x-icon .ico
-    AddType image/jpeg .jpg .jpeg .jpe
+    AddType image/jpeg .jpg .jpeg .jpe  "access plus 2592000 seconds"
     AddType application/vnd.ms-access .mdb
-    AddType audio/midi .mid .midi
-    AddType video/quicktime .mov .qt
-    AddType audio/mpeg .mp3 .m4a
-    AddType video/mp4 .mp4 .m4v
+    AddType audio/midi .mid .midi  "access plus 2592000 seconds"
+    AddType video/quicktime .mov .qt  "access plus 2592000 seconds"
+    AddType audio/mpeg .mp3 .m4a  "access plus 2592000 seconds"
+    AddType video/mp4 .mp4 .m4v  "access plus 2592000 seconds"
     AddType video/mpeg .mpeg .mpg .mpe
     AddType application/vnd.ms-project .mpp
-    AddType application/vnd.oasis.opendocument.database .odb
-    AddType application/vnd.oasis.opendocument.chart .odc
-    AddType application/vnd.oasis.opendocument.formula .odf
+    AddType application/vnd.oasis.opendocument.database .odb  "access plus 2592000 seconds"
+    AddType application/vnd.oasis.opendocument.chart .odc  "access plus 2592000 seconds"
+    AddType application/vnd.oasis.opendocument.formula .odf  "access plus 2592000 seconds"
     AddType application/vnd.oasis.opendocument.graphics .odg
     AddType application/vnd.oasis.opendocument.presentation .odp
     AddType application/vnd.oasis.opendocument.spreadsheet .ods
     AddType application/vnd.oasis.opendocument.text .odt
     AddType audio/ogg .ogg
-    AddType application/pdf .pdf
+    AddType application/pdf .pdf  "access plus 2592000 seconds"
     AddType image/png .png
     AddType application/vnd.ms-powerpoint .pot .pps .ppt .pptx
     AddType audio/x-realaudio .ra .ram
@@ -202,10 +202,10 @@ Deny from all
 Header set Cache-Control "max-age=2692000, public"
 </FilesMatch>
 <FilesMatch "\\.(css)$">
-Header set Cache-Control "max-age=2692000, public"
+Header set Cache-Control "max-age=120, public"
 </FilesMatch>
 <FilesMatch "\\.(js)$">
-Header set Cache-Control "max-age=216000, private"
+Header set Cache-Control "max-age=120, private"
 </FilesMatch>
 <FilesMatch "\\.(x?html?|php)$">
 Header set Cache-Control "max-age=600, private, must-revalidate"
